@@ -69,5 +69,4 @@ if __name__ == "__main__":
     test = QuestionnaireAnalysis('data.json')
     test.show_age_distrib()
     test.remove_rows_without_mail()
-    a,rows = test.fill_na_with_mean()
-    print(type(rows))
+    test.fill_na_with_mean()
